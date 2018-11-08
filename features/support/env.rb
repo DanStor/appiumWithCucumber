@@ -1,6 +1,7 @@
 require "appium_lib"
 require "cucumber"
 require "rspec"
+require_relative "../../lib/budget_app"
 
 def opts
   {
