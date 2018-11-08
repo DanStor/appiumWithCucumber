@@ -8,10 +8,9 @@ Feature: I am able to add a budget
     When I click on budgets
     Then I see my budgets
 
-  Scenario: I am able to create a budge
+  Scenario: I am able to create a budget
     Given I can open the app
-    When I navigate to budgets
+    When I click on budgets
     And I create a new budget
     And I add a name and value
-    
     Then The new budget page opens
