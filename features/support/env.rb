@@ -8,7 +8,7 @@ def opts
     caps: {
       "platformName": "Android",
       "deviceName": "emulator-5554",
-      "app": "/Users/tech-a51/Desktop/budgetwatch.apk"
+      "app": "app/budgetwatch.apk"
     }
   }
 end
