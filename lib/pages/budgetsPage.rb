@@ -1,8 +1,6 @@
 class BudgetsPage
   STANDARD_ID_STRING = "protect.budgetwatch:id/"
-  
   VALID_BUDGET_NAME = "Danber"
-
   VALID_BUDGET_INPUT_VALUE = "1500"
   VALID_BUDGET_RETURN_VALUE = "0/1500"
 
