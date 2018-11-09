@@ -3,11 +3,13 @@ Feature: I am able to add a budget
   I want to add a budget
   So that I can track my budgets
 
+  @one
   Scenario: I am able to view my budgets
     Given I can open the app
     When I click on budgets
     Then I see my budgets
 
+  @two
   Scenario: I am able to create a budget
     Given I can open the app
     When I click on budgets
